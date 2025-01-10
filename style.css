@@ -1,0 +1,62 @@
+body {
+  background-color: whitesmoke;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+main {
+  line-height: 1.4; 
+}
+
+.haha p > u {
+  background-color: black;
+  color: whitesmoke;
+  padding: 0px 12px 0px 12px;
+}
+
+h2{
+  text-align: start;
+}
+
+h2 > span {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+h2 > span:hover {
+  background-color: white; /* Warna latar berubah */
+  color: black;           /* Warna teks berubah */
+  
+}
+
+.haha {
+  margin-top: 60px;
+}
+
+.haha2 {
+  margin-top: 30px;
+}
+
+main p {
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 50px;
+  
+}
+
+a {
+  background-color: black;
+  color: white;
+  padding: 0px 12px;
+  text-decoration: underline;
+  transition: all 0.3s ease; /* Untuk animasi halus */
+}
+
+a:hover {
+  background-color: white; /* Warna latar berubah */
+  color: black;           /* Warna teks berubah */
+}
+
